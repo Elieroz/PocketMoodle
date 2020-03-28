@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_timetable"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="@string/menu_timetable" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+    </group>
+
+    <item android:title="Subjects">
+        <menu>
+            <item
+                android:id="@+id/nav_m03"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="m03" />
+            <item
+                android:id="@+id/nav_m05"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="m05" />
+            <item
+                android:id="@+id/nav_m06"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="m06" />
+            <item
+                android:id="@+id/nav_m07"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="m07" />
+            <item
+                android:id="@+id/nav_m08"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="m08" />
+            <item
+                android:id="@+id/nav_m09"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="m09" />
+            <item
+                android:id="@+id/nav_m10"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="m10" />
+        </menu>
+    </item>
+
+    <item android:title="configuration">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="@string/action_settings" />
+        </menu>
+    </item>
+</menu>

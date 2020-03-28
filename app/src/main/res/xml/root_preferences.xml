@@ -1,0 +1,24 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/title_notifications">
+
+        <SwitchPreferenceCompat
+            app:key="enable_notifications"
+            app:title="@string/enable_notifications" />
+
+        <SwitchPreferenceCompat
+            app:dependency="enable_notifications"
+            app:key="vibrate_or_something"
+            app:summaryOff="no bzz bzz"
+            app:summaryOn="bzz bzz locura"
+            app:title="Vibrate or something" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/account">
+        <Preference
+            app:key="log_out"
+            app:title="@string/log_out"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

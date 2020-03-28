@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Ara..."/>
+
+    <include
+        android:id="@+id/current_subject"
+
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+
+        layout="@layout/subject"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="I després..."/>
+
+    <include
+        android:id="@+id/next_subject"
+
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+
+        layout="@layout/subject"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <include
+        android:id="@+id/messages"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        layout="@layout/count_near_wide"/>
+
+    <include
+        android:id="@+id/exams"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        layout="@layout/count_near_wide"/>
+
+    <include
+        android:id="@+id/tasks"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        layout="@layout/count_near_wide"/>
+
+    <include
+        android:id="@+id/absences"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        layout="@layout/count_near_wide"/>
+
+    <!--    <androidx.recyclerview.widget.RecyclerView-->
+    <!--        android:id="@+id/status_recycler"-->
+
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"/>-->
+
+</LinearLayout>
